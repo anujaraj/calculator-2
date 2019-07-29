@@ -1,0 +1,40 @@
+<html>
+<title>
+</title> 
+<body>
+<input type="number" id="n1" name="no1">
+<input type="number" id="n2" name="no2">
+<br/>
+<br/>
+<button onclick="add()">add</button>
+<button onclick="sub()">subtract</button>
+<button onclick="mul()">multiply</button>
+<button onclick="divi()">divide</button>
+<script>
+function add()
+{var a = parseInt(document.getElementById("n1").value);
+var b = parseInt(document.getElementById("n2").value);
+document.write("the answer is"+"=");
+document.write(a+b);
+}
+function sub()
+{var a = parseInt(document.getElementById("n1").value);
+var b = parseInt(document.getElementById("n2").value);
+document.write("the answer is"+"=");
+document.write(a-b);
+}
+function mul()
+{var a = parseInt(document.getElementById("n1").value);
+var b = parseInt(document.getElementById("n2").value);
+document.write("the answer is"+"=");
+document.write(a*b);
+}
+function divi()
+{var a = parseInt(document.getElementById("n1").value);
+var b = parseInt(document.getElementById("n2").value);
+document.write("the answer is"+"=");
+document.write(a/b);
+}
+</script>
+</body>
+</html>
